@@ -1,0 +1,123 @@
+:root {
+  --scrollbar-thin-thumb: var(--tertiary-background);
+  --scrollbar-auto-thumb: var(--quartiary-background);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: var(--secondary-background);
+  --scrollbar-auto-track: var(--secondary-background);
+  --scrollbar-auto-scrollbar-color-track: var(--main-background);
+  --activity-card-background: var(--secondary-background);
+  --background-primary: var(--main-background);
+  --background-mobile-primary: var(--main-background);
+  --background-secondary: var(--secondary-background);
+  --background-mobile-secondary: var(--secondary-background);
+  --background-secondary-alt: var(--secondary-background);
+  --background-tertiary: var(--main-background);
+  --background-accent: var(--tertiary-background);
+  --background-floating: var(--main-background);
+  --channeltextarea-background: var(--secondary-background);
+  --textbox-markdown-syntax: var(--main-background);
+
+  --focus-primary: var(--blurple);
+  --text-link: var(--blurple);
+}
+
+/* Scrollers */
+::-webkit-scrollbar-thumb {
+  border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Chat input */
+.form-2fGMdU {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--quartiary-background);
+  box-shadow: 0 0 1vh 0 var(--secondary-background);
+}
+
+.channelTextArea-rNsIhG {
+  margin: 0;
+}
+
+.typing-2GQL18 {
+  display: none;
+  height: 0;
+}
+
+.form-2fGMdU:before {
+  display: none;
+}
+
+.scrollableContainer-2NUZem {
+  border-radius: 0;
+  background-color: var(--quartiary-background);
+}
+
+/* User box */
+.container-3baos1 {
+  background-color: var(--main-background);
+  padding-bottom: 5px;
+  padding-top: 6px;
+}
+
+/* X New messages button */
+.newMessagesBar-265mhP {
+  background-color: var(--blurple);
+  border-radius: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* Server header */
+.container-1taM1r {
+  background-color: var(--main-background);
+  border-radius: 0;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+  background-color: var(--main-background);
+  box-shadow: 0 0 1vh 0 var(--secondary-background);
+}
+
+.children-19S4PO:after {
+  display: none;
+}
+
+.content-1x5b-n {
+  border-radius: 0;
+}
+
+/* Main chat */
+.scroller-2LSbBU {
+  background-color: var(--tertiary-background);
+  box-shadow: inset 0 0 1vh 0 var(--secondary-background);
+}
+
+/* Client list */
+.members-1998pB, .members-1998pB > div {
+  background-color: var(--secondary-background);
+}
+
+/* Server list */
+.scroller-1Bvpku {
+  background-color: var(--tertiary-background);
+}
+
+/* Channel list */
+.scroller-RmtA4e {
+
+}
+
+/* Title bar */
+.withFrame-haYltI {
+  background-color: var(--title-background);
+}
+
+/* Syntax-Highlighting */
+.syntaxAfter-hcA4AH, .syntaxBefore-1YQ9lW {
+  color: var(--text-color);
+}
