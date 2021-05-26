@@ -1,3 +1,4 @@
+/* Root - this is where most variables are declared */
 :root {
   --scrollbar-thin-thumb: var(--tertiary-background);
   --scrollbar-auto-thumb: var(--quartiary-background);
