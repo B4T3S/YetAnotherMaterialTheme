@@ -1,0 +1,24 @@
+/**
+ * @name Yet another materialistic theme
+ * @author Bates#7075
+ * @version 1.0.0
+ * @source https://github.com/CommandCrafterHD/YetAnotherMaterialTheme
+ * @website https://commandcrafterhd.github.io/YetAnotherMaterialTheme/
+ * @donate https://www.paypal.com/paypalme/floriancegledi
+ * @description Bates' attempt at yet another materialistic theme!
+ * @authorId 137259132305539072
+*/
+
+@import url('https://commandcrafterhd.github.io/YetAnotherMaterialTheme/css/main.css');
+/* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
+
+/* CUSTOMIZE COLORS IN HERE! */
+:root {
+  --main-background: #030305; /* The main background color */
+  --secondary-background: #0F0F11; /* The secondary background color */
+  --tertiary-background: #161617; /* The tertiary background color */
+  --quartiary-background: #1D1D1F; /* The quartiary background color */
+  --title-background: #060608; /* The color for the window-title for lack of a better name */
+  --blurple: #7289DA; /* Good ol' blurbple, because the new color sucks */
+  --green: #43b581; /* And, of course, a better green */
+}
