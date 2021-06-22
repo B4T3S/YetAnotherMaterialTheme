@@ -22,6 +22,8 @@
 
   --focus-primary: var(--blurple);
   --text-link: var(--blurple);
+  --brand-experiment: var(--blurple) !important;
+  --brand-experiment-560: var(--blurple) !important;
 }
 
 /* Scrollers */
@@ -33,12 +35,17 @@
   display: none;
 }
 
+/* Selections */
+::selection {
+  background-color: var(--blurple);
+}
+
 /* VERSION INFO */
 .info-1VyQPT:last-child::after {
-  content: "YAM Theme Version 1.0.0";
+  content: "YAM Theme Version 1.0.1";
   font-size: 12px;
   line-height: 16px;
-  color: var(--text-muted);
+  color: var(--blurple);
 }
 /* VERSION INFO */
 
